@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+:root{
+    --primary-color: #2dd4bf;
+    --shadow-color: #14b8a6;
+    --navigation-highlight-color: #f0fdfa;
+    --section-offwhite-color: #f1f5f9;
+    --darkgrey-color:#94a3b8;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+.highlight-text{
+    font-weight: bold;
+}
+
+/** hr **/
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/** Containers**/
+.container{
+    padding:0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/** Links **/
+
+.links-effect:hover{
+    box-shadow: 0px 0px 8px var(--shadow-color);
+}
+
+.links{
+    text-decoration-line: none;
+    padding: 0.5rem 1rem;
+}
+
+.links-effect{
+    transition: box-shadow.3s;
+}
+
+.links-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
+
+.links-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/** Lists **/
+
+.list-non-bullet-elements{
+    list-style: none;
+}
+
+.list-inline-element{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** Navigation **/
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 0.5rem 0.5rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: white;
+}
+
+.navigation .links{
+    text-decoration-line: none;
+    padding: 0rem 0.5rem;
+    font-size: medium;
+    color:white
+}
+
+.naviagtion-brand{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navigation-list-element{
+    display: inline;
+    padding: 1rem;
+}
+
+.navigation-unorder-list-elements{
+    text-align: right;
+}
+
+.navigation-active-element{
+    font-weight: bold;
+    box-shadow: 0px 2px 1px var(--navigation-highlight-color);
+}
+
+/** header **/
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-image{
+    max-width: 400px;
+    display:block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    color: var(--darkgrey-color);
+}
+
+.hero .hero-heading .hero-inverted-heading{
+    color: var(--shadow-color);
+}
+
+/** Section **/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.section-offwhite{
+    background-color: var(--section-offwhite-color);
+}
+
+/** Footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer ul{
+    padding-inline-start: 0rem;
+}
+
+.footer .links{
+    color: white;
+    font-size: 1.1rem;
+}

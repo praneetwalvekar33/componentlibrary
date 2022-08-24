@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library for Learning</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Welcome to my component library</h1>
+    <p>I am making the component library to <span class="highlight-text">learn 
+        about HTML and CSS.</span>
+    </p>
+    <p>
+        After creating this library I will use the library in <span class="highlight-text"> all my portfolio, blogs and all my projects.</span> 
+        This will help me to keep my <span class="highlight-text">projects consistent in theme and style, and have better designs.</span>
+    </p>
+
+    <hr>
+
+    <h2>@topography</h2>
+
+    <h1>This is the largest header h1.</h1>
+
+    <h2>This is the second largest header h2.</h2>
+
+    <p>This is the normal text. This will auto 
+        fold based on the width of the text. It is 
+        mostly used in paragraphs.
+    </p>
+
+    <small>This relatively smaller text.</small>
+
+    <hr>
+
+    <h2>@containers</h2>
+
+    <h3>@fluid Containers</h2>
+
+    <div class="container">This is a fluid container. It will be go
+    full width of page with some margin.</div>
+
+    <h3>@center Container</h2>
+
+    <div class="container container-center">This is a center container. It will be 
+        going to a specified width and centered 
+        horizontally.</div>
+    
+    <hr>
+
+    <h2>@links</h2>
+
+    <a href="/" class="links links-effect links-primary">Primary link</a>
+
+    <a href="/" class="links links-effect links-secondary">Secondary link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>Unordered List</h3>
+
+    <p>Elements will be placed in list with any order. They won't have bullets</p>
+
+    <ul class="list-non-bullet-elements">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>Inline List</h3>
+
+    <p>Instead of placing the items in new row, we will 
+        place the items in columns
+    </p>
+    
+    <ul class="list-non-bullet-elements">
+        <li class="list-inline-element">Inline Item One</li>
+        <li class="list-inline-element">Inline Item Two</li>
+        <li class="list-inline-element">Inline Three Two</li>
+
+    </ul>
+
+    <h3>Reverse Ordered List</h3>
+
+    <p>It is a ordered list but the numbering will be done in reverse order.</p>
+
+    <ol reversed>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+
+    <hr>
+
+    <h2>@navigation</h2>
+    <nav class="navigation">
+        <div class="naviagtion-brand">I am Brand</div>
+        <ul class="list-non-bullet-elements navigation-unorder-list-elements">
+            <li class="navigation-list-element navigation-active-element">
+                <a class="links" href="/">About</a>
+            </li>
+            <li class="navigation-list-element">
+                <a class="links" href="/">Projects</a>
+            </li>
+            <li class="navigation-list-element">
+                <a class="links" href="/">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+    <header class="hero container-center">
+        <img class="hero-image" src="images/headerimage.svg"/>
+        <h1 class="hero-heading">heading h1 <span class="hero-inverted-heading">inside header</span></h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <p>
+        Section is used to seperate parts of page. In marketing website you would have seen a header followed by section
+        of feature, team, pricing, contact information, etc. 
+    </p>
+
+    <section class="section">
+        <div class="container-center">
+            <h1>white Section</h1>
+            <p>This will have a white background</p>
+        </div>
+    </section>
+
+    <section class="section section-offwhite">
+        <div class="container container-center">
+            <h1>Offwhite Section</h1>
+            <p>This section will have offwhite background</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div>Small heading inside footer</div>
+        <ul class="list-non-bullet-elements">
+            <li class="list-inline-element">
+                <a class="links"  href="/">SocialOne</a>
+            </li>
+
+            <li class="list-inline-element">
+                <a class="links" href="/">SocialSecond</a>
+            </li>
+
+            <li class="list-inline-element">
+                <a class="links" href="/">SocialThree</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
